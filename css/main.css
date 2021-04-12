@@ -106,6 +106,7 @@ body {
     body .container-lg .content .col-3 {
       padding: 0; }
       body .container-lg .content .col-3 .ava_and_friends form {
+        border-radius: 3px;
         margin-top: 30px;
         width: 100%;
         display: -webkit-box;
@@ -148,6 +149,7 @@ body {
               cursor: pointer;
               text-align: center; }
       body .container-lg .content .col-3 .ava_and_friends .friends {
+        border-radius: 3px;
         -webkit-box-shadow: 0 3px 6px 0 gray;
         box-shadow: 0 3px 6px 0 gray;
         padding-top: 40px;
@@ -246,6 +248,56 @@ body {
             -ms-grid-row: 3;
             -ms-grid-row-span: 1;
             grid-row: 3/4; }
+    body .container-lg .content .col-7 .second_content .info {
+      margin-top: 30px;
+      -webkit-box-shadow: 0 3px 6px 0 gray;
+      box-shadow: 0 3px 6px 0 gray;
+      padding: 30px 0;
+      border-radius: 3px; }
+      body .container-lg .content .col-7 .second_content .info .luella {
+        margin: 0 20px;
+        display: block;
+        font-size: 23px;
+        color: #3b3e41;
+        opacity: 70%;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #efeded; }
+      body .container-lg .content .col-7 .second_content .info .birthday_and_city {
+        padding: 25px 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin: 0 20px; }
+        body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(1) {
+          color: #c6c0c4; }
+          body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(1) li:nth-child(2) {
+            margin-top: 10px; }
+        body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(2) {
+          color: #4ca4d8;
+          margin-left: 100px; }
+          body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(2) li:nth-child(2) {
+            margin-top: 10px; }
+      body .container-lg .content .col-7 .second_content .info .friends_245 {
+        padding-top: 20px;
+        border-top: 1px solid #efeded;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around; }
+        body .container-lg .content .col-7 .second_content .info .friends_245 ul li {
+          color: #4ca4d8;
+          text-align: center; }
+        body .container-lg .content .col-7 .second_content .info .friends_245 ul li:nth-child(1) {
+          font-size: 20px; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
