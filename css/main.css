@@ -150,6 +150,9 @@ body {
                 color: #dff2fd;
                 cursor: pointer;
                 text-align: center; }
+              body .container-lg .content .col-3 .ava_and_friends form .input_photo li label:hover {
+                color: #f7f9fa;
+                background-color: #5cc1ef; }
         body .container-lg .content .col-3 .ava_and_friends .friends {
           border-radius: 3px;
           -webkit-box-shadow: 0 3px 6px 0 gray;
@@ -278,8 +281,9 @@ body {
             body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(1) li:nth-child(2) {
               margin-top: 10px; }
           body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(2) {
-            color: #4ca4d8;
             margin-left: 100px; }
+            body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(2) li a {
+              color: #4ca4d8; }
             body .container-lg .content .col-7 .second_content .info .birthday_and_city ul:nth-child(2) li:nth-child(2) {
               margin-top: 10px; }
         body .container-lg .content .col-7 .second_content .info .friends_245 {
@@ -297,6 +301,8 @@ body {
           body .container-lg .content .col-7 .second_content .info .friends_245 ul li {
             color: #4ca4d8;
             text-align: center; }
+            body .container-lg .content .col-7 .second_content .info .friends_245 ul li a {
+              color: #4ca4d8; }
           body .container-lg .content .col-7 .second_content .info .friends_245 ul li:nth-child(1) {
             font-size: 20px; }
       body .container-lg .content .col-7 .second_content .posts {
@@ -339,7 +345,7 @@ body {
           body .container-lg .content .col-7 .second_content .posts .like_repost a .icon-orange {
             color: #ffb34b; }
           body .container-lg .content .col-7 .second_content .posts .like_repost a:hover .icon-orange {
-            color: #f6105b; }
+            color: #f66110; }
           body .container-lg .content .col-7 .second_content .posts .like_repost ul {
             margin-top: 10px;
             display: -webkit-box;
