@@ -34,6 +34,7 @@ body
 	-webkit-font-smoothing: antialiased
 	overflow-x: hidden
 	.container-lg
+		padding-bottom: 20px
 		.row
 			.col
 				.header
@@ -129,6 +130,7 @@ body
 							opacity: 60%
 						ul
 							margin-top: 20px
+							padding-bottom: 20px
 							display: grid
 							padding-left: 25px
 							grid-template-columns: repeat(5, 1fr)
@@ -137,7 +139,6 @@ body
 								display: flex
 								flex-direction: column
 								justify-content: center
-								align-items: center
 								span
 									font-size: 16px
 									text-align: center
@@ -154,6 +155,7 @@ body
 							li:nth-child(4)
 								grid-column: 1/2
 								grid-row: 2/3
+								padding-bottom: 25px
 							li:nth-child(5)
 								grid-column: 2/3
 								grid-row: 2/3
@@ -174,7 +176,7 @@ body
 					.info
 						margin-top: 30px
 						box-shadow: 0 3px 6px 0 gray
-						padding: 30px 0
+						padding: 30px 0 20px 0
 						border-radius: 3px
 						.luella
 							margin: 0 20px
@@ -210,6 +212,52 @@ body
 									text-align: center
 								li:nth-child(1)
 									font-size: 20px
+					.posts
+						padding: 30px 0
+						box-shadow: 0 3px 6px 0 gray
+						margin-top: 20px
+						border-radius: 3px
+						.ava_post
+							margin: 0 20px
+							display: flex
+							flex-direction: row
+							ul
+								margin: 0 20px
+								li
+									font-size: 16px
+									margin: 3px 0
+								li:nth-child(2)
+									font-size: 12px
+									color: #ced5de
+						.message_post
+							display: block
+							margin: 20px 0
+							color: #435d75
+							border-bottom: 1px solid #efeded
+							padding: 0 20px 30px 22px
+						.like_repost
+							display: flex
+							flex-direction: row
+							a
+								.icon-orange
+									color: #ffb34b
+							a:hover
+								.icon-orange
+									color: #f6105b
+
+							ul
+								margin-top: 10px
+								display: flex
+								flex-direction: row
+								margin-left: 20px
+								li
+									text-align: center
+									margin-left: 10px
+									span
+										color: #ffb34b
+							.arrow
+								margin-top: 10px
+								margin-left: 20px
 
 
 body input:focus:required:invalid,
